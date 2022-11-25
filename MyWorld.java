@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
+ * A beautiful animal farm where all animals are hungry. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Rachel Zhang 
+ * @version November 25, 2022
  */
 public class MyWorld extends World
 {
@@ -17,5 +17,11 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
+        
+        Camel camel = new Camel(); 
+        addObject(camel, 300, 200);
+        
+        Apple apple = new Apple(); 
+        addObject(apple, 300, 0); 
     }
 }
