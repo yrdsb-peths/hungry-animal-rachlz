@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * An apple, the type of food for the camel.
+ * A class where apples exist as a food source. 
  * 
- * @author Rachel Zhang  
- * @version November 25, 2022
+ * @author Rachel Zhang 
+ * @version December 1st, 2022 
  */
 public class Apple extends Actor
 {
@@ -15,6 +15,5 @@ public class Apple extends Actor
     public void act()
     {
         // Add your action code here.
-        setLocation(getX(), getY() + 1); 
     }
 }
