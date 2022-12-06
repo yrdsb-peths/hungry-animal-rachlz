@@ -25,7 +25,7 @@ public class MyWorld extends World
         
         // call the createApple() method to create a new randomized apple
         // Create a Label 
-        Label scoreLabel = new Label(0, 90); 
+        scoreLabel = new Label(0, 90); //get rid of Label in front of scoreLabel to avoid creating a new object and causing NullPointerException since no reference is made.
         addObject(scoreLabel, 50, 50); 
         
         createApple(); 
