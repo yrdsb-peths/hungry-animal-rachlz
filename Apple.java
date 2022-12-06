@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * A class where apples exist as a food source. 
  * 
  * @author Rachel Zhang 
- * @version December 1st, 2022 
+ * @version December 1st, 2022 (Version 2)
  */
 public class Apple extends Actor
 {

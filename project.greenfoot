@@ -1,11 +1,11 @@
 #Greenfoot project file
 class.Apple.image=apple.png
 class.Elephant.image=elephant.png
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=272
-editor.fx.0.y=63
-height=400
+editor.fx.0.height=744
+editor.fx.0.width=1382
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+height=744
 package.numDependencies=0
 package.numTargets=3
 project.charset=windows-1252
@@ -44,6 +44,6 @@ target3.width=120
 target3.x=0
 target3.y=0
 version=3.0.0
-width=938
-xPosition=143
-yPosition=159
+width=1382
+xPosition=0
+yPosition=0
