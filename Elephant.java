@@ -18,12 +18,12 @@ public class Elephant extends Actor
         //Keyboard function (get the user's keys to press)
         if (Greenfoot.isKeyDown("left"))
         {
-            move(-1); 
+            move(-8); 
         }
         
         else if (Greenfoot.isKeyDown("right"))
         {
-            move(1); 
+            move(8); 
         }
         
         // Remove apple if elephant eats it
